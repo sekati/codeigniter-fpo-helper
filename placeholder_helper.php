@@ -66,4 +66,3 @@ if ( ! function_exists('placekitten'))
  
 /* End of file placeholder_helper.php */
 /* Location: application/helpers/placeholder_helper.php */
-?>
