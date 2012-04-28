@@ -1,14 +1,14 @@
 
-CodeIgniter Placeholder Image Helper
+FPO Placeholder Helper Spark for CodeIgniter
 ============================
-A small [CodeIgniter](http://codeigniter.com) helper library for working with the various Placeholder Image API's such as [placehold.it](http://placehold.it), [placekitten](http://placekitten.com), etc.
 
+A [CodeIgniter](http://codeigniter.com) helper [Spark](http://getsparks.org/) for working with the various Placeholder Image API's such as [placehold.it](http://placehold.it), [placekitten](http://placekitten.com), etc.
 
 Installation
 -------------------------------------
 
-1. Copy `placeholder_helper.php` to your `application/helpers` folder.
-2. Autoload the helper `$autoload['helper'] = array('placeholder');`.
+1. Install the spark: `php tools/spark install fpo` - or, if not using Spark package management, copy `fpo_helper.php` to your `application/helpers` folder.
+2. Load the spark: `$this->load->spark('fpo/1.0.0');` - or, optionally autoload the spark in `application/config/autoload.php`: `$autoload['sparks'] = array('fpo/1.0.0');`.
 3. Employ helper functions as needed.
 
 

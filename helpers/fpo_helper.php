@@ -1,7 +1,7 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * Sekati CodeIgniter Placeholder Image Helper
+ * Sekati CodeIgniter FPO Placeholder Image Helper
  *
  * @package		Sekati
  * @author		Jason M Horwitz
